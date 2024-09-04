@@ -85,7 +85,8 @@ align-items: center;
 justify-content: center;
 flex-direction: row;
 margin-top: 45px;
-background-color: #1927a1;
+border: 0.8px solid rgba(0, 0, 0, 0.352);
+border-radius: 3px;
 
 }
 
@@ -318,8 +319,7 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 margin-top: 45px;
-background-color: #1927a1;
-
+border: 0.8px solid rgba(0, 0, 0, 0.352);
 
 }
 
@@ -479,9 +479,7 @@ nav a {
     justify-content: center;
     flex-direction: column;
     margin-top: 45px;
-background-color: #1927a1;
-
-    
+    border: 0.8px solid rgba(0, 0, 0, 0.352);
     }
 
     .text1 img{
