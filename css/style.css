@@ -141,7 +141,19 @@ h1, h2 {
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
+  margin-top: 80px;
 }
+
+.diferencial2{
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
 
 .boxtext{
 
@@ -357,3 +369,104 @@ textCopi{
   0%, 100% { border-color: transparent; }
   50% { border-color: black; }
 }
+
+
+
+
+
+
+
+
+.reconhecimentos {
+  position: relative;
+  background-image: url('../img/fouder.jpeg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Faz a imagem cobrir todo o espaço da section */
+  background-position: center; /* Centraliza a imagem */
+  opacity: 0.8; /* Define a opacidade da section (ajuste este valor conforme necessário) */
+  color: white; /* Muda a cor do texto para melhor contraste, se necessário */
+}
+
+.reconhecimentos::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* Camada escura com menor opacidade */
+  z-index: 1; /* Coloca a camada acima da imagem, mas abaixo do conteúdo */
+}
+
+.reconhecimentos__title,
+.reconhecimentos__description,
+.reconhecimentos__highlight,
+.reconhecimentos__subjects-title,
+.reconhecimentos__commitment,
+.reconhecimentos__subjects-list,
+.cta-button {
+  position: relative; /* Para garantir que o texto fique acima da camada escura */
+  z-index: 1; /* Coloca o texto acima da camada escura */
+}
+
+
+
+#about2 {
+  position: relative;
+  background-image: url('../img/imagem5.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Faz a imagem cobrir todo o espaço da section */
+  background-position: center; /* Centraliza a imagem */
+  opacity: 0.8; /* Define a opacidade da section */
+  color: white; /* Muda a cor do texto para melhor contraste */
+}
+
+#about2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* Camada escura com menor opacidade para melhorar a legibilidade do texto */
+  z-index: 1; /* Coloca a camada acima da imagem, mas abaixo do conteúdo */
+}
+
+#about2 h2,
+#about2 p {
+  position: relative; /* Para garantir que o texto fique acima da camada escura */
+  z-index: 2; /* Coloca o texto acima da camada escura */
+  line-height: 1.5; /* Aumenta o espaçamento entre linhas */
+  margin: 10px 0; /* Adiciona margem entre os parágrafos */
+}
+
+
+
+#about3 {
+  position: relative;
+  background-image: url('../img/imagem4.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Faz a imagem cobrir todo o espaço da section */
+  background-position: center; /* Centraliza a imagem */
+  opacity: 0.8; /* Define a opacidade da section */
+  color: white; /* Muda a cor do texto para melhor contraste */
+}
+
+#about3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* Camada escura com menor opacidade para melhorar a legibilidade do texto */
+  z-index: 1; /* Coloca a camada acima da imagem, mas abaixo do conteúdo */
+}
+
+#about3 h2,
+#about3 p {
+  position: relative; /* Para garantir que o texto fique acima da camada escura */
+  z-index: 2; /* Coloca o texto acima da camada escura */
+  line-height: 1.5; /* Aumenta o espaçamento entre linhas */
+  margin: 10px 0; /* Adiciona margem entre os parágrafos */
+}
+
+
+
